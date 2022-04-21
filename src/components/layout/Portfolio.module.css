@@ -1,9 +1,10 @@
-.about {
-  /* height: 15rem; */
+.portfolio {
+  background-color: rgb(9, 9, 35);
+  color: white;
   padding: 1.5rem;
 }
 
-.about_title {
+.portfolio_title {
   font-size: 3rem;
   margin: 0 auto;
   text-align: center;

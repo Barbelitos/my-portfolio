@@ -1,0 +1,28 @@
+.about_container {
+  display: flex;
+  margin: 5rem auto;
+  width: 70%;
+}
+
+.about_info {
+  text-align: center;
+  width: 50%;
+}
+
+.about_photo {
+  width: 22rem;
+  height: 20rem;
+}
+
+.info_title,
+.skills_title {
+  font-size: 2rem;
+}
+
+.about_skills {
+  background-color: rgb(9, 9, 35);
+  width: 50%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

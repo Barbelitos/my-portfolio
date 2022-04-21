@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  height: 3.5rem;
+  padding: 1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar.sticky {
+  background-color: rgb(9, 9, 35);
+  position: sticky;
+  top: 0;
+}
+
+.links_menu {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.links_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}

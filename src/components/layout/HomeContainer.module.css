@@ -1,0 +1,22 @@
+.home_container {
+  margin: 5rem auto;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.home_title {
+  color: white;
+  font-size: 4rem;
+  display: block;
+}
+
+.home_name {
+  color: pink;
+}
+
+.home_picture {
+  display: block;
+  height: 80%;
+  width: 50%;
+}

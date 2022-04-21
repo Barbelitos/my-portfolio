@@ -1,0 +1,10 @@
+.about {
+  height: 15rem;
+  padding: 1rem;
+}
+
+.about_title {
+  font-size: 3rem;
+  margin: 0 auto;
+  text-align: center;
+}

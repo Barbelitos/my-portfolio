@@ -5,7 +5,7 @@ import HomeContainer from "./HomeContainer";
 
 const Header = (props) => {
   return (
-    <header className={classes.header}>
+    <header id="header-section" className={classes.header}>
       <Navbar />
       <HomeContainer />
     </header>

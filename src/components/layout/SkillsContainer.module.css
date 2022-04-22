@@ -1,0 +1,12 @@
+.skills_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.skills_container img {
+  width: 100px;
+  height: 100px;
+}

@@ -12,6 +12,7 @@ const PortfolioContainer = (props) => {
             name={item.name}
             key={item.key}
             url={item.url}
+            repo={item.repo}
             description={item.description}
             tech={item.tech}
           />

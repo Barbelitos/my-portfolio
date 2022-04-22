@@ -26,7 +26,7 @@ const Navbar = (props) => {
         <ul className={classes.links_list}>
           {NavItems.map((item) => {
             return (
-              <li>
+              <li key={item.key}>
                 <a href={item.url} className={classes.nav_link}>
                   {item.title}
                 </a>

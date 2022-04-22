@@ -14,11 +14,13 @@ const HomeContainer = (props) => {
         </h1>
         <HomeContainerButton />
       </div>
-      <img
-        className={classes.home_picture}
-        src={profilePic}
-        alt="David's face"
-      />
+      <div className={classes.picture_container}>
+        <img
+          className={classes.home_picture}
+          src={profilePic}
+          alt="David's face"
+        />
+      </div>
     </div>
   );
 };

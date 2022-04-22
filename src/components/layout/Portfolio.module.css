@@ -1,11 +1,11 @@
 .portfolio {
   background-color: rgb(9, 9, 35);
   color: white;
-  padding-bottom: 5rem;
+  padding: 1.5rem;
 }
 
 .portfolio_title {
   font-size: 3rem;
-  margin: 1rem auto;
+  margin: 3rem auto 5rem auto;
   text-align: center;
 }

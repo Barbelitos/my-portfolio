@@ -1,5 +1,9 @@
 import { useState } from "react";
+
 import classes from "./PortfolioCard.module.css";
+
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkIcon from "@mui/icons-material/Link";
 
 const PortfolioCard = (props) => {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -20,6 +24,8 @@ const PortfolioCard = (props) => {
     >
       <img className={classes.card_image} src={props.image} alt="" />
       <h3 className={classes.card_name}>{props.name}</h3>
+      <p>{props.description}</p>
+      <br />
       <div className={classes.tech_container}>
         {props.tech.map((item) => {
           return <span className={classes.tech_item}>{item}</span>;
@@ -39,8 +45,18 @@ const PortfolioCard = (props) => {
               : classes.card_links
           }
         >
-          <button>URL</button>
-          <button>Github</button>
+          <div>
+            <a href={props.url} rel="noreferrer" target="_blank">
+              <LinkIcon sx={{ fontSize: 20 }} />
+            </a>
+            <h3>Live link</h3>
+          </div>
+          <div>
+            <a href={props.repo}>
+              <GitHubIcon sx={{ fontSize: 20 }} />
+            </a>
+            <h3>Github</h3>
+          </div>
         </div>
       </div>
     </div>

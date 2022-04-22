@@ -1,0 +1,60 @@
+.portfolio_card {
+  border: 2px solid white;
+  height: 25rem;
+  width: 30%;
+  padding: 1rem;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  /* width: 100%; */
+  background-color: white;
+  /* height: 100%; */
+  bottom: 1rem;
+  left: 1rem;
+  right: 22rem;
+  top: 1rem;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_links {
+  margin: 8rem auto;
+  opacity: 0;
+  width: 30%;
+  transition: all 0.5s ease-in-out;
+}
+
+.show_links {
+  display: block;
+  opacity: 1;
+}
+
+.show_overlay {
+  right: 1rem;
+}
+
+.card_image {
+  width: 100%;
+}
+
+.card_name {
+  font-size: 1.6rem;
+  margin: 2rem auto;
+}
+
+.tech_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.tech_item {
+  border: 1px solid white;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+}

@@ -1,0 +1,9 @@
+.portfolio_container {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}

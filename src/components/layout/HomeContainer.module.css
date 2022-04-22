@@ -1,8 +1,11 @@
 .home_container {
-  margin: 5rem auto;
+  margin: 0 auto;
   width: 60%;
+  max-width: 1300px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  /* gap: 2rem; */
 }
 
 .home_title {
@@ -16,7 +19,9 @@
 }
 
 .home_picture {
-  display: block;
-  height: 80%;
-  width: 50%;
+  top: 0;
+  left: 0;
+  height: 30rem;
+  width: 30rem;
+  clip-path: polygon(50% 10%, 94% 50%, 50% 90%, 7% 50%);
 }

@@ -1,5 +1,5 @@
 .header {
-  background: rgb(9,9,35);
+  background: rgb(9,9,35) !important;
   height: 100vh;
   width: 100vw;
   padding-top: 8rem;

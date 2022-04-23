@@ -4,9 +4,3 @@
   padding-top: 8rem;
   background-color: rgb(9,9,35);
 }
-
-@media only screen and (max-width: 750px) {
-  /* .header {
-    padding-top: 8rem;
-  } */
-}

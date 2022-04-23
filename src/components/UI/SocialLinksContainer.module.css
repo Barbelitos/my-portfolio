@@ -1,0 +1,16 @@
+.social_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  gap: 2rem;
+}
+
+.social_link {
+  background-color: rgb(9, 9, 35);
+  padding: 1.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.social_link:hover {
+  background-color: rgb(42, 42, 143);
+}

@@ -1,10 +1,10 @@
 .about_container {
   display: flex;
-  margin: 10rem auto;
-  width: 70%;
+  margin: 5rem auto;
+  width: 80%;
   max-width: 1300px;
   justify-content: space-between;
-  /* gap: 2rem; */
+  /* gap: 3rem; */
 }
 
 .about_info {
@@ -29,7 +29,7 @@
   width: 45%;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .skills_container {
@@ -43,4 +43,30 @@
 .skills_container img {
   width: 100px;
   height: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+  .about_container {
+    display: block;
+    /* text-align: center; */
+    width: 90%;
+  }
+
+  .about_photo {
+    width: 100%;
+  }
+
+  .about_info {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .skills_container {
+    text-align: center;
+    display: block;
+  }
+
+  .about_skills {
+    width: 100%;
+  }
 }

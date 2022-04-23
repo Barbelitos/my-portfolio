@@ -32,7 +32,7 @@ const PortfolioItems = [
     image: easyFinland,
     description:
       "Collection of useful links to help foreigners navigate life in Finland",
-    tech: ["Html", "CSS", "Javascript", "NodeJS", "ExpressJS"],
+    tech: ["Html", "CSS", "Javascript", "Node JS", "Express JS"],
   },
   {
     key: "pf4",

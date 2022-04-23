@@ -67,7 +67,7 @@
 
 .card_name {
   font-size: 1.6rem;
-  margin: 2rem auto 1rem auto;
+  margin: 1rem auto 1rem auto;
 }
 
 .tech_container {
@@ -85,3 +85,28 @@
   font-size: 0.5rem;
   font-weight: 800;
 }
+
+@media only screen and (max-width: 580px) {
+  .portfolio_card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 780px) {
+  .portfolio_card {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 790px) and (max-width: 980px) {
+  .portfolio_card {
+    width: 45%;
+  }
+}
+
+/* @media only screen and (max-width: 700px) {
+  .portfolio_card {
+    width: 70%;
+  }
+
+} */

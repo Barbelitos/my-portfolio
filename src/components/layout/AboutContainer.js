@@ -3,6 +3,7 @@ import classes from "./AboutContainer.module.css";
 import santa from "../../assets/santa.jpg";
 
 import SkillsContainer from "./SkillsContainer";
+import SocialLinksContainer from "../UI/SocialLinksContainer";
 
 const AboutContainer = () => {
   return (
@@ -20,6 +21,7 @@ const AboutContainer = () => {
           Lately I have been diving into React and discovering the infinite
           possibilities that this amazing library offers.
         </p>
+        <SocialLinksContainer />
       </div>
       <div className={classes.about_skills}>
         <h2 className={classes.skills_title}>My Skills</h2>

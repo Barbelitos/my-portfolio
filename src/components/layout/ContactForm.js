@@ -10,15 +10,21 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [messageName, setMessageName] = useState("");
 
-  const displayMessage = (event) => {
-    setMessageSent(true);
+  const displayMessage = () => {
+    if (name !== "" && email !== "" && message !== "") {
+      setMessageSent(true);
+    }
+    setMessageName(name);
     setTimeout(() => {
       setName("");
       setEmail("");
       setMessage("");
-      setMessageSent(false);
     }, 800);
+    setTimeout(() => {
+      setMessageSent(false);
+    }, 3000);
   };
 
   const nameChangeHandler = (e) => {
@@ -34,33 +40,36 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} id="myForm" className={classes.contact_form}>
       <div className={classes.form_group}>
-        <label htmlFor="name">Name</label>
+        {/* <label htmlFor="name">Name</label> */}
         <input
           id="name"
           type="text"
           name="name"
+          placeholder="Your name"
           onChange={nameChangeHandler}
           value={name}
           required
         />
       </div>
       <div className={classes.form_group}>
-        <label htmlFor="email">Email</label>
+        {/* <label htmlFor="email">Email</label> */}
         <input
           id="email"
           type="email"
           name="email"
+          placeholder="Your email"
           onChange={emailChangeHandler}
           value={email}
           required
         />
       </div>
       <div className={classes.form_group}>
-        <label htmlFor="message">Message</label>
+        {/* <label htmlFor="message">Message</label> */}
         <textarea
           id="message"
           type="text"
           name="message"
+          placeholder="Your message"
           onChange={messageChangeHandler}
           value={message}
           required
@@ -73,8 +82,12 @@ const ContactForm = () => {
       >
         Send message
       </button>
-      <br></br>
-      <p>{messageSent ? "Thank you for your message!" : ""}</p>
+      <br />
+      <p className={classes.feedback_message}>
+        {messageSent
+          ? `Hi ${messageName}, thank you for your message! I'll get back to you as soon as possible.`
+          : ""}
+      </p>
     </form>
   );
 };

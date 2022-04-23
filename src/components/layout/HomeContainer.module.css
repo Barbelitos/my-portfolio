@@ -1,15 +1,16 @@
 .home_container {
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
   max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .home_title {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   display: block;
 }
 
@@ -20,8 +21,24 @@
 .home_picture {
   right: 0;
   top: -220px;
-  height: 30rem;
-  width: 30rem;
+  height: 25rem;
+  width: 25rem;
   /* position: absolute; */
   clip-path: polygon(50% 10%, 94% 50%, 50% 90%, 7% 50%);
+}
+
+@media only screen and (max-width: 750px) {
+  .home_container {
+    display: block;
+  }
+
+  .home_title {
+    font-size: 2rem;
+  }
+
+  .home_picture {
+    margin: 0 auto;
+    height: 20rem;
+    width: 20rem;
+  }
 }

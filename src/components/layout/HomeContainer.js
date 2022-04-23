@@ -3,7 +3,7 @@ import classes from "./HomeContainer.module.css";
 import profilePic from "../../assets/david.png";
 import HomeContainerButton from "../UI/HomeContainerButton";
 
-import { Power3, gsap } from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 

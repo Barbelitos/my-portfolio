@@ -3,9 +3,6 @@
   width: 100vw;
   padding-top: 8rem;
   background-color: rgb(9,9,35);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 @media only screen and (max-width: 750px) {

@@ -10,6 +10,11 @@ const Header = (props) => {
     <header
       style={{
         background: `linear-gradient(rgba(9,9,35,0.8), rgba(9,9,35,0.8)), url(${background})`,
+        height: "100vh",
+        width: "100vw",
+        paddingTop: "8rem",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       id="header-section"
       className={classes.header}

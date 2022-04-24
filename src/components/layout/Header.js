@@ -5,7 +5,7 @@ import HomeContainer from "./HomeContainer";
 
 const Header = (props) => {
   return (
-    <header style={{ backgroundColor: "rgb(9,9,35)", height: "100vh" }} id="header-section" className={classes.header}>
+    <header style={{ backgroundColor: "rgb(9,9,35)", height: "100vh", paddingTop: "8rem" }} id="header-section" className={classes.header}>
       <Navbar />
       <HomeContainer />
     </header>

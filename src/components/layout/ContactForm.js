@@ -1,7 +1,12 @@
 import { useForm } from "@formspree/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import classes from "./ContactForm.module.css";
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("mzbokpwz");
@@ -36,6 +41,25 @@ const ContactForm = () => {
   const messageChangeHandler = (e) => {
     setMessage(e.target.value);
   };
+
+  useEffect(() => {
+    gsap.fromTo(
+      "#myForm",
+      {
+        x: 1000,
+        opacity: 0,
+      },
+      {
+        x: 0,
+        duration: 0.8,
+        opacity: 1,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: "#contact-section",
+        },
+      }
+    );
+  }, []);
 
   return (
     <form onSubmit={handleSubmit} id="myForm" className={classes.contact_form}>

@@ -10,12 +10,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   useEffect(() => {
-    gsap.from("#testAbout", {
-      y: 500,
-      duration: 0.8,
-      delay: 0.2,
-      scrollTrigger: { trigger: "#about-section" },
-    });
+    gsap.fromTo(
+      "#testAbout",
+      {
+        y: 800,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        duration: 0.8,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: "#about-section",
+        },
+      }
+    );
   }, []);
 
   return (

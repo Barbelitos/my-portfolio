@@ -13,8 +13,8 @@ const HomeContainer = (props) => {
   useEffect(() => {
     gsap.fromTo(
       ".title_container",
-      { opacity: 1, x: -1000 },
-      { opacity: 1, duration: 0.5, x: 25 }
+      { opacity: 0 },
+      { opacity: 1, duration: 5 }
     );
   }, []);
 

@@ -15,23 +15,25 @@ const AboutContainer = () => {
   useEffect(() => {
     gsap.fromTo(
       "#profile-photo",
-      { x: -600 },
+      { x: -600, opacity: 0 },
       {
         x: 0,
+        opacity: 1,
         duration: 0.8,
         scrollTrigger: {
-          trigger: ".about_container",
+          trigger: "#about-section",
         },
       }
     );
     gsap.fromTo(
       "#skills",
-      { x: 500 },
+      { x: 500, opacity: 0 },
       {
         x: 0,
         duration: 0.8,
+        opacity: 1,
         scrollTrigger: {
-          trigger: ".about_container",
+          trigger: "#about-section",
         },
       }
     );

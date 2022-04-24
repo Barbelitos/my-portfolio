@@ -5,6 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 750px) {

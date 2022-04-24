@@ -53,7 +53,7 @@ const ContactForm = () => {
         x: 0,
         duration: 0.8,
         opacity: 1,
-        delay: 0.5,
+        delay: 0.3,
         scrollTrigger: {
           trigger: "#contact-section",
         },

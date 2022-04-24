@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <SocialLinksContainer />
       <h4>
-        David Fonseca <span>©2021</span>
+        Barbelitos <span>©2021</span>
       </h4>
     </footer>
   );

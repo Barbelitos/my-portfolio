@@ -43,7 +43,7 @@ const AboutContainer = () => {
     <div className={classes.about_container}>
       <div id="profile-photo" className={classes.about_info}>
         <img className={classes.about_photo} src={santa} alt="David" />
-        <h2 className={classes.info_title}>About me</h2>
+        <h2 className={classes.info_title}>Who am I?</h2>
         <br />
         <p>
           I am an Aircraft Engineer and Frontend Web Developer with a strong
@@ -51,8 +51,12 @@ const AboutContainer = () => {
         </p>
         <br />
         <p>
-          Lately I have been diving into React and discovering the infinite
-          possibilities that this amazing library offers.
+          Lately I have been diving into{" "}
+          <a href="https://reactjs.org" className={classes.react_link}>
+            React
+          </a>{" "}
+          and discovering the infinite possibilities that this amazing library
+          offers.
         </p>
         <SocialLinksContainer />
       </div>

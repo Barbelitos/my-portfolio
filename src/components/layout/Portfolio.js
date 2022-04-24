@@ -28,9 +28,13 @@ const Portfolio = () => {
 
   return (
     <section className={classes.portfolio} id="portfolio-section">
-      <h1 id="port-title" className={classes.portfolio_title}>
-        Portfolio
-      </h1>
+      <div id="port-title">
+        <h1 className={classes.portfolio_title}>Portfolio</h1>
+        <p className={classes.portfolio_text}>
+          Here are some of the projects that I have been working in. I hope you
+          like!
+        </p>
+      </div>
       <PortfolioContainer />
     </section>
   );

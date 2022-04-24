@@ -23,7 +23,6 @@
   top: -220px;
   height: 25rem;
   width: 25rem;
-  /* position: absolute; */
   clip-path: polygon(50% 10%, 94% 50%, 50% 90%, 7% 50%);
 }
 

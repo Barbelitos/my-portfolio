@@ -8,14 +8,11 @@
 
 .overlay {
   position: absolute;
-  /* width: 100%; */
   background-color: rgba(255, 255, 255, 0.9);
-  /* height: 100%; */
   bottom: 1rem;
   left: 1rem;
   right: 24rem;
   top: 1rem;
-  /* opacity: 0.8; */
   transition: all 0.3s ease-in-out;
 }
 
@@ -25,9 +22,9 @@
   opacity: 0;
   width: 100%;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
-  transition: all 0.5s;
+  transition: all 0.6s;
 }
 
 .card_links a {
@@ -35,10 +32,9 @@
   color: white;
   padding: 1rem;
   background-color: rgb(42, 42, 143);
-  border-radius: 50%;
   display: inline-block;
   opacity: 1;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .card_links a:hover {
@@ -48,6 +44,8 @@
 
 .card_links h3 {
   color: black;
+  font-weight: 700;
+  margin-top: 0.4rem;
 }
 
 .show_links {
@@ -104,9 +102,8 @@
   }
 }
 
-/* @media only screen and (max-width: 700px) {
+@media only screen and (min-width: 1200px) {
   .portfolio_card {
-    width: 70%;
+    width: 25%;
   }
-
-} */
+}

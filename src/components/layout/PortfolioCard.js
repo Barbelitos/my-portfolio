@@ -49,7 +49,8 @@ const PortfolioCard = (props) => {
             <a href={props.url} rel="noreferrer" target="_blank">
               <LinkIcon sx={{ fontSize: 20 }} />
             </a>
-            <h3>Live link</h3>
+            <br />
+            <h3>Live</h3>
           </div>
           <div>
             <a href={props.repo}>

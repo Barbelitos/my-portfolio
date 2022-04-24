@@ -3,20 +3,20 @@ import classes from "./HomeContainer.module.css";
 import profilePic from "../../assets/david.png";
 import HomeContainerButton from "../UI/HomeContainerButton";
 
-/* import { gsap } from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 
-gsap.registerPlugin(ScrollTrigger); */
+gsap.registerPlugin(ScrollTrigger);
 
 const HomeContainer = (props) => {
- /* useEffect(() => {
+  useEffect(() => {
     gsap.fromTo(
       ".title_container",
       { opacity: 1, x: -1000 },
       { opacity: 1, duration: 0.5, x: 25 }
     );
-  }, []); */
+  }, []);
 
   return (
     <div className={classes.home_container}>

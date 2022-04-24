@@ -1,4 +1,4 @@
-import SocialLinksContainer from "../UI/SocialLinksContainer";
+import SocialLinksContainer from "../About/SocialLinksContainer";
 import classes from "./Footer.module.css";
 
 const Footer = () => {

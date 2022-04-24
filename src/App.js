@@ -1,9 +1,9 @@
 import "./App.css";
-import Header from "./components/layout/Header";
-import About from "./components/layout/About";
-import Portfolio from "./components/layout/Portfolio";
-import Contact from "./components/layout/Contact";
-import Footer from "./components/layout/Footer";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (

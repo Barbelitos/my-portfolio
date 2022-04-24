@@ -1,4 +1,4 @@
-import Navbar from "../UI/Navbar";
+import Navbar from "./Navbar";
 
 import classes from "./Header.module.css";
 import HomeContainer from "./HomeContainer";

@@ -1,7 +1,7 @@
 import classes from "./HomeContainer.module.css";
 
 import profilePic from "../../assets/david.png";
-import HomeContainerButton from "../UI/HomeContainerButton";
+import HomeContainerButton from "./HomeContainerButton";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

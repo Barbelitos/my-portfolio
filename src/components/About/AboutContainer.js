@@ -3,7 +3,7 @@ import classes from "./AboutContainer.module.css";
 import santa from "../../assets/santa.jpg";
 
 import SkillsContainer from "./SkillsContainer";
-import SocialLinksContainer from "../UI/SocialLinksContainer";
+import SocialLinksContainer from "./SocialLinksContainer";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

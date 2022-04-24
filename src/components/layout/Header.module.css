@@ -1,6 +1,8 @@
 .header {
+  background: rgb(9,9,35) !important;
   height: 100vh;
   width: 100vw;
+<<<<<<< HEAD
   padding-top: 8rem;
   background-color: rgb(9, 9, 35);
   background-size: cover;
@@ -12,4 +14,7 @@
   /* .header {
     padding-top: 8rem;
   } */
+=======
+  padding-top: 10rem;
+>>>>>>> e3bd928fa36c20c36dd841136bdeb4a8633eba3e
 }

@@ -4,6 +4,9 @@ import easyFinland from "../../assets/easyfinland.jpg";
 import breweries from "../../assets/breweriesapp.jpg";
 import forkify from "../../assets/forkify.jpg";
 import todo from "../../assets/todo.jpg";
+import loopstudios from "../../assets/loopstudios.jpg";
+import crowdfund from "../../assets/crowdfund.jpg";
+import portfolio from "../../assets/portfolio.jpg";
 
 const PortfolioItems = [
   {
@@ -61,6 +64,36 @@ const PortfolioItems = [
     image: todo,
     description: "Todo App created as a challenge from Frontend Mentor website",
     tech: ["Html", "CSS", "Javascript"],
+  },
+  {
+    key: "pf7",
+    name: "Loopstudios Landing Page",
+    url: "https://fabulous-gnome-3d9dff.netlify.app/",
+    repo: "https://github.com/Barbelitos/FrontEndMentor-LoopStudiosLandingPage",
+    image: loopstudios,
+    description:
+      "Loopstudios landing page created as a challenge from Frontend Mentor.",
+    tech: ["Html", "CSS", "Javascript"],
+  },
+  {
+    key: "pf8",
+    name: "Crowdfunding Product Page",
+    url: "https://front-end-mentor-crowdfunding-product-page.vercel.app/",
+    repo: "https://github.com/Barbelitos/FrontEndMentor-CrowdfundingProductPage",
+    image: crowdfund,
+    description:
+      "Crowdfunding product page created as a challenge from Frontend Mentor.",
+    tech: ["Html", "CSS", "Javascript"],
+  },
+  {
+    key: "pf9",
+    name: "My Portfolio Page",
+    url: "https://barbelitos-portfolio.netlify.app/",
+    repo: "https://github.com/Barbelitos/my-portfolio",
+    image: portfolio,
+    description:
+      "This very same page. You can check out my Github repository for it!",
+    tech: ["React", "CSS", "Javascript", "Node JS"],
   },
 ];
 

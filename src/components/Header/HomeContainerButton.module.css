@@ -20,3 +20,9 @@ button .button_arrow {
 .home_button:hover .button_arrow {
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 1200px) {
+  .home_button .button_arrow {
+    transform: rotate(90deg);
+  }
+}

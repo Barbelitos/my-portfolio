@@ -18,14 +18,16 @@ const ContactForm = () => {
   const [messageName, setMessageName] = useState("");
 
   const displayMessage = () => {
-    if (name !== "" && email !== "" && message !== "") {
+    if (name !== "" && email !== "" && email.includes("@") && message !== "") {
       setMessageSent(true);
     }
     setMessageName(name);
     setTimeout(() => {
-      setName("");
-      setEmail("");
-      setMessage("");
+      if (messageSent) {
+        setName("");
+        setEmail("");
+        setMessage("");
+      }
     }, 800);
     setTimeout(() => {
       setMessageSent(false);

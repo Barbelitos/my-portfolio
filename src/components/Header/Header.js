@@ -6,7 +6,7 @@ import classes from "./Header.module.css";
 
 const Header = (props) => {
   return (
-    <header
+    <section
       style={{
         background: `linear-gradient(rgba(9,9,35,0.8), rgba(9,9,35,0.8)), url(${background})`,
         height: "100vh",
@@ -20,7 +20,7 @@ const Header = (props) => {
     >
       <Navbar />
       <HomeContainer />
-    </header>
+    </section>
   );
 };
 

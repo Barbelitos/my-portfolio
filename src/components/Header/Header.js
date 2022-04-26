@@ -1,9 +1,8 @@
 import Navbar from "./Navbar";
+import HomeContainer from "./HomeContainer";
+import background from "../../assets/background.jpg";
 
 import classes from "./Header.module.css";
-import HomeContainer from "./HomeContainer";
-
-import background from "../../assets/background.jpg";
 
 const Header = (props) => {
   return (

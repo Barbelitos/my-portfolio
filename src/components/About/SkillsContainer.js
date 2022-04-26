@@ -4,7 +4,6 @@ import javascript from "../../assets/javascript.svg";
 import nodejs from "../../assets/nodejs.svg";
 import react from "../../assets/react.svg";
 import material from "../../assets/materialui.svg";
-
 import classes from "./SkillsContainer.module.css";
 
 const SkillsContainer = () => {

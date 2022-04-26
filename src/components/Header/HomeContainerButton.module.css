@@ -1,12 +1,21 @@
+a {
+  text-decoration: none;
+}
+
 .home_button {
   font-size: 2rem;
   color: white;
   background-color: transparent;
-  margin-top: 2rem;
+  margin: 2rem auto;
   border: 2px solid white;
-  padding: 1rem;
+  padding: 0.8rem;
+  width: 250px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .home_button:hover {

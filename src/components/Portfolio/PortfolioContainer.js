@@ -1,10 +1,10 @@
-import classes from "./PortfolioContainer.module.css";
+import { useEffect } from "react";
 import PortfolioItems from "./PortfolioItems";
 import PortfolioCard from "./PortfolioCard";
+import classes from "./PortfolioContainer.module.css";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 

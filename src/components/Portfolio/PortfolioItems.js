@@ -93,7 +93,7 @@ const PortfolioItems = [
     image: portfolio,
     description:
       "This very same page. You can check out my Github repository for it!",
-    tech: ["React", "CSS", "Javascript", "Node JS"],
+    tech: ["React", "CSS", "Javascript", "Node JS", "Material UI"],
   },
 ];
 

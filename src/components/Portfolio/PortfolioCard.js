@@ -1,10 +1,9 @@
 import { useState } from "react";
 
-import classes from "./PortfolioCard.module.css";
-
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 
+import classes from "./PortfolioCard.module.css";
 const PortfolioCard = (props) => {
   const [showOverlay, setShowOverlay] = useState(false);
 
@@ -27,8 +26,12 @@ const PortfolioCard = (props) => {
       <p>{props.description}</p>
       <br />
       <div className={classes.tech_container}>
-        {props.tech.map((item) => {
-          return <span className={classes.tech_item}>{item}</span>;
+        {props.tech.map((item, i) => {
+          return (
+            <span key={i} className={classes.tech_item}>
+              {item}
+            </span>
+          );
         })}
       </div>
       <div

@@ -1,5 +1,5 @@
-import { useForm } from "@formspree/react";
 import { useEffect, useState } from "react";
+import { useForm } from "@formspree/react";
 
 import classes from "./ContactForm.module.css";
 

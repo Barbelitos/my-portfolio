@@ -28,7 +28,7 @@ const HomeContainer = (props) => {
         >
           Hi, I am <span className={classes.home_name}>David Fonseca</span> and
           <br />
-          I'm a web developer
+          I'm a Frontend developer
         </Typography>
         <HomeContainerButton />
       </div>

@@ -1,12 +1,8 @@
 .home_link {
   text-decoration: none;
-  /* font-size: 1.5rem; */
   color: white;
   background-color: transparent;
   margin: 2rem auto;
-  /* border: 2px solid white; */
-  /* padding: 1rem; */
-  /* width: 250px; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   justify-content: center;

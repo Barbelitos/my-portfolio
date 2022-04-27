@@ -9,7 +9,7 @@ const HomeContainerButton = () => {
       underline="none"
       style={{
         padding: "1.4rem",
-        fontSize: ".2rem",
+        fontSize: ".1rem",
         border: "2px solid white",
       }}
       className={classes.home_link}

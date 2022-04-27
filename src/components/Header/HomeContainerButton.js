@@ -5,12 +5,17 @@ import classes from "./HomeContainerButton.module.css";
 
 const HomeContainerButton = () => {
   return (
-    <Link size="small" underline="none" href="#about-section">
+    <Link
+      size="small"
+      underline="none"
+      style={{ padding: "1rem" }}
+      className={classes.home_link}
+      href="#about-section"
+    >
       <Button
         variant="outlined"
         size="small"
-        style={{ color: "white", borderColor: "white" }}
-        className={classes.home_link}
+        style={{ color: "white", border: "none", padding: "1rem" }}
       >
         <Typography variant="h5">Get to know me </Typography>
         <span>

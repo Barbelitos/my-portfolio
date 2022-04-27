@@ -1,8 +1,5 @@
-a {
+.home_link {
   text-decoration: none;
-}
-
-.home_button {
   font-size: 2rem;
   color: white;
   background-color: transparent;
@@ -18,20 +15,20 @@ a {
   align-items: center;
 }
 
-.home_button:hover {
+.home_link:hover {
   background-color: rgb(42, 42, 143);
 }
 
-button .button_arrow {
+.home_link .button_arrow {
   transition: all 0.3s ease-in-out;
 }
 
-.home_button:hover .button_arrow {
+.home_link:hover .button_arrow {
   transform: rotate(90deg);
 }
 
 @media only screen and (max-width: 1200px) {
-  .home_button .button_arrow {
+  .home_link .button_arrow {
     transform: rotate(90deg);
   }
 }

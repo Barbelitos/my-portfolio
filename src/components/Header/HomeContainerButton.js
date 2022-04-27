@@ -1,19 +1,13 @@
 import { Typography } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { Link } from "@mui/material";
 
 import classes from "./HomeContainerButton.module.css";
 
 const HomeContainerButton = () => {
   return (
-    <a href="#about-section">
-      <button className={classes.home_button}>
-        <Typography variant="h5">Get to know me </Typography>
-        <ArrowForwardIosIcon
-          fontSize="small"
-          className={classes.button_arrow}
-        />
-      </button>
+    <a className={classes.home_link} href="#about-section">
+      <Typography variant="h5">Get to know me </Typography>
+      <ArrowForwardIosIcon fontSize="small" className={classes.button_arrow} />
     </a>
   );
 };

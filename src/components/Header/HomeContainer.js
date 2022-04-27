@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { Typography } from "@mui/material";
-import HomeContainerButton from "./HomeContainerButton";
+// import HomeContainerButton from "./HomeContainerButton";
 import profilePic from "../../assets/david.png";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import classes from "./HomeContainer.module.css";
 
 import { gsap } from "gsap";
@@ -26,7 +27,13 @@ const HomeContainer = (props) => {
           <br />
           I'm a web developer
         </Typography>
-        <HomeContainerButton />
+        <a className={classes.home_link} href="#about-section">
+          <Typography variant="h5">Get to know me </Typography>
+          <ArrowForwardIosIcon
+            fontSize="small"
+            className={classes.button_arrow}
+          />
+        </a>
       </div>
       <div className={classes.picture_container}>
         <img

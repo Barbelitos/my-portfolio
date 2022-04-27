@@ -18,6 +18,35 @@
   color: pink;
 }
 
+.home_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  background-color: transparent;
+  margin: 2rem auto;
+  border: 2px solid white;
+  padding: 0.8rem;
+  width: 250px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_link:hover {
+  background-color: rgb(42, 42, 143);
+}
+
+.home_link .button_arrow {
+  transition: all 0.3s ease-in-out;
+}
+
+.home_link:hover .button_arrow {
+  transform: rotate(90deg);
+}
+
 .home_picture {
   right: 0;
   top: -220px;
@@ -39,5 +68,11 @@
     margin: 0 auto;
     height: 20rem;
     width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home_link .button_arrow {
+    transform: rotate(90deg);
   }
 }

@@ -21,7 +21,11 @@ const HomeContainer = (props) => {
   return (
     <div className={classes.home_container}>
       <div className="title_container">
-        <Typography variant="h4" className={classes.home_title}>
+        <Typography
+          style={{ marginBottom: "1rem" }}
+          variant="h4"
+          className={classes.home_title}
+        >
           Hi, I am <span className={classes.home_name}>David Fonseca</span> and
           <br />
           I'm a web developer

@@ -1,12 +1,17 @@
-import { Button, Typography } from "@mui/material";
+import { Link, Button, Typography } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import classes from "./HomeContainerButton.module.css";
 
 const HomeContainerButton = () => {
   return (
-    <a href="#about-section">
-      <button className={classes.home_link}>
+    <Link size="small" underline="none" href="#about-section">
+      <Button
+        variant="outlined"
+        size="small"
+        style={{ color: "white", borderColor: "white" }}
+        className={classes.home_link}
+      >
         <Typography variant="h5">Get to know me </Typography>
         <span>
           <ArrowForwardIosIcon
@@ -14,8 +19,8 @@ const HomeContainerButton = () => {
             className={classes.button_arrow}
           />
         </span>
-      </button>
-    </a>
+      </Button>
+    </Link>
   );
 };
 

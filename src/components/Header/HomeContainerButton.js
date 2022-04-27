@@ -6,9 +6,8 @@ import classes from "./HomeContainerButton.module.css";
 const HomeContainerButton = () => {
   return (
     <Link
-      size="small"
       underline="none"
-      style={{ padding: "1rem" }}
+      style={{ padding: "1.4rem", fontSize: ".2rem" }}
       className={classes.home_link}
       href="#about-section"
     >

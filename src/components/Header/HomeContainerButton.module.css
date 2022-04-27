@@ -19,6 +19,7 @@
 
 .home_link .button_arrow {
   transition: all 0.3s ease-in-out;
+  margin-left: 0.5rem;
 }
 
 .home_link:hover .button_arrow {

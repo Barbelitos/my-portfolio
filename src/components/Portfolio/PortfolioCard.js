@@ -56,7 +56,7 @@ const PortfolioCard = (props) => {
             <h3>Live</h3>
           </div>
           <div>
-            <a href={props.repo}>
+            <a href={props.repo} rel="noreferrer" target="_blank">
               <GitHubIcon sx={{ fontSize: 20 }} />
             </a>
             <h3>Github</h3>

@@ -25,7 +25,7 @@ const SectionTitle = ({ title, subtitle, id }) => {
         },
       }
     );
-  }, [id]);
+  });
   return (
     <div id={id}>
       <Typography

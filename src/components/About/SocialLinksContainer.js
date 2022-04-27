@@ -11,18 +11,21 @@ const SocialLinksContainer = () => {
       <Link
         className={classes.social_link}
         href="https://www.linkedin.com/in/david-fonseca-9a464a80/"
+        target="_blank"
       >
         <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
       </Link>
       <Link
         className={classes.social_link}
         href="https://github.com/Barbelitos"
+        target="_blank"
       >
         <GitHubIcon fontSize="large" sx={{ color: "white" }} />
       </Link>
       <Link
         className={classes.social_link}
         href="https://www.instagram.com/barbelitos/"
+        target="_blank"
       >
         <InstagramIcon fontSize="large" sx={{ color: "white" }} />
       </Link>

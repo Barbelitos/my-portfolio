@@ -18,7 +18,7 @@
   color: pink;
 }
 
-.home_link {
+/* .home_link {
   text-decoration: none;
   font-size: 2rem;
   color: white;
@@ -33,7 +33,7 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .home_link:hover {
   background-color: rgb(42, 42, 143);

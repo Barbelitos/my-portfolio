@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 // import HomeContainerButton from "./HomeContainerButton";
 import profilePic from "../../assets/david.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -27,13 +27,32 @@ const HomeContainer = (props) => {
           <br />
           I'm a web developer
         </Typography>
-        <a className={classes.home_link} href="#about-section">
+        <Link
+          style={{
+            textDecoration: "none",
+            fontSize: "2rem",
+            color: "white",
+            backgroundColor: "transparent",
+            margin: "2rem auto",
+            border: "2px solid white",
+            padding: "0.8rem",
+            width: "250px",
+            cursor: "pointer",
+            transition: "all 0.3s ease-in-out",
+            display: "flex",
+            gap: "1rem",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          className={classes.home_link}
+          href="#about-section"
+        >
           <Typography variant="h5">Get to know me </Typography>
           <ArrowForwardIosIcon
             fontSize="small"
             className={classes.button_arrow}
           />
-        </a>
+        </Link>
       </div>
       <div className={classes.picture_container}>
         <img
